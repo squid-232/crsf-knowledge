@@ -1,5 +1,9 @@
 # 📡 CRSF 协议学习知识体系（TBS 规范 × ExpressLRS 实践）
 
+**中文** | [English](README.en.md)
+
+> 首页介绍支持中英切换；8 个详细知识模块目前为中文。
+
 > 面向嵌入式开发者的 CRSF（Crossfire Serial Protocol）学习与实现手册
 > - **主线**：TBS 官方《CRSF Protocol Specification》
 > - **实践**：ExpressLRS 官方文档（4.x），辅以 Betaflight 源码与 crsf-wg 社区文档
