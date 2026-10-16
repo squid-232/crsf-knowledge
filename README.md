@@ -2,7 +2,7 @@
 
 **中文** | [English](README.en.md)
 
-> 首页介绍支持中英切换；8 个详细知识模块目前为中文。
+> 首页介绍与 8 个详细知识模块均支持中文 / English 切换；每章顶部可选择语言。
 
 > 面向嵌入式开发者的 CRSF（Crossfire Serial Protocol）学习与实现手册
 > - **主线**：TBS 官方《CRSF Protocol Specification》

@@ -1,5 +1,7 @@
 # 🛠️ 04 扩展帧：设备发现、参数配置与命令
 
+**中文** | [English](en/04-extended-frames.md) · [知识体系首页](../README.md)
+
 > **本章摘要**：扩展帧在 Type 后多了 Dest / Orig 两个地址字节，可点对点寻址并经多端口设备转发。本章覆盖：设备发现（0x28 / 0x29）、参数系统（0x2B / 0x2C / 0x2D，含分块与数据类型）、直接命令 0x32（双 CRC）、RC 同步 0x3A、MSP over CRSF（0x7A / 0x7B）以及厂商扩展帧。ExpressLRS Lua 菜单、遥控器上的“绑定”按钮、远程调 VTX，底层都是这些帧。
 ## 1. 扩展帧回顾
 - 结构：`[Sync][Len][Type][Dest][Orig][Payload][CRC]`，Type ≥ 0x28；Len = Payload + 4（Type、Dest、Orig、CRC），Payload 最多 58 字节；

@@ -9,7 +9,7 @@ A learning and implementation handbook for embedded developers working with the 
 - **Resources:** a portable C99 reference implementation, Python capture script, and test vectors.
 - **Compiled:** October 2026.
 
-This introduction is available in Chinese and English. The eight detailed chapters are currently in Chinese. The original notes report 63 passing unit tests for crsf-mini; the tests were not rerun during publication.
+The introduction and all eight detailed chapters are available in Chinese and English. Use the language links at the top of each page to switch. The original notes report 63 passing unit tests for crsf-mini; the tests were not rerun during publication.
 
 ## 🎯 CRSF in one sentence
 
@@ -40,18 +40,18 @@ CRSF is the **wired serial protocol** developed by TBS for Crossfire and widely 
 
 ## 🧭 Knowledge map
 
-All chapter links below open the Chinese documentation.
+All chapter links below open the English documentation.
 
 | # | Chapter | Main topics | Difficulty | Suggested time |
 | --- | --- | --- | --- | --- |
-| 01 | [Protocol overview and system architecture](docs/01-overview.md) | The two wired links, device addresses, star routing, frame families | ⭐ | 1 hour |
-| 02 | [Physical layer and frame structure](docs/02-physical-layer-and-frames.md) | Baud rates, polarity, half-duplex timing, frame layout, length, CRC8, tolerant parsing | ⭐⭐ | 2 hours |
-| 03 | [Core frame types](docs/03-frame-types.md) | 11-bit channel packing, link statistics, telemetry fields and units | ⭐⭐ | 3 hours |
-| 04 | [Extended frames: discovery, parameters, and commands](docs/04-extended-frames.md) | Ping, Device Info, parameter trees and chunks, COMMAND state machine, 0x32 commands, MSP | ⭐⭐⭐ | 4 hours |
-| 05 | [CRSF in ExpressLRS](docs/05-expresslrs.md) | Baud and packet rates, FC configuration, switch modes, telemetry ratio and bandwidth, LQ/RSSI | ⭐⭐ | 2 hours |
-| 06 | [Embedded implementation with C reference code](docs/06-embedded-implementation.md) | UART/DMA/IDLE, parser state machine, timeout and resynchronization, failsafe, telemetry scheduling | ⭐⭐⭐ | 6 hours |
-| 07 | [Debugging, testing, and common pitfalls](docs/07-debugging-and-tests.md) | Capture tools and Python script, test vectors, 22 common pitfalls | ⭐⭐ | 2 hours |
-| 08 | [Hands-on projects and self-assessment](docs/08-projects-and-quiz.md) | Five progressive projects and 15 questions with answers | ⭐⭐⭐ | 1–2 weeks |
+| 01 | [Protocol overview and system architecture](docs/en/01-overview.md) | The two wired links, device addresses, star routing, frame families | ⭐ | 1 hour |
+| 02 | [Physical layer and frame structure](docs/en/02-physical-layer-and-frames.md) | Baud rates, polarity, half-duplex timing, frame layout, length, CRC8, tolerant parsing | ⭐⭐ | 2 hours |
+| 03 | [Core frame types](docs/en/03-frame-types.md) | 11-bit channel packing, link statistics, telemetry fields and units | ⭐⭐ | 3 hours |
+| 04 | [Extended frames: discovery, parameters, and commands](docs/en/04-extended-frames.md) | Ping, Device Info, parameter trees and chunks, COMMAND state machine, 0x32 commands, MSP | ⭐⭐⭐ | 4 hours |
+| 05 | [CRSF in ExpressLRS](docs/en/05-expresslrs.md) | Baud and packet rates, FC configuration, switch modes, telemetry ratio and bandwidth, LQ/RSSI | ⭐⭐ | 2 hours |
+| 06 | [Embedded implementation with C reference code](docs/en/06-embedded-implementation.md) | UART/DMA/IDLE, parser state machine, timeout and resynchronization, failsafe, telemetry scheduling | ⭐⭐⭐ | 6 hours |
+| 07 | [Debugging, testing, and common pitfalls](docs/en/07-debugging-and-tests.md) | Capture tools and Python script, test vectors, 22 common pitfalls | ⭐⭐ | 2 hours |
+| 08 | [Hands-on projects and self-assessment](docs/en/08-projects-and-quiz.md) | Five progressive projects and 15 questions with answers | ⭐⭐⭐ | 1–2 weeks |
 
 ## 🛤️ Learning path
 

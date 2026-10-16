@@ -1,5 +1,7 @@
 # 🚀 05 ExpressLRS 中的 CRSF 实践
 
+**中文** | [English](en/05-expresslrs.md) · [知识体系首页](../README.md)
+
 > **本章摘要**：把协议知识落到 ExpressLRS（ELRS）的真实系统里：遥控器 ⇄ TX 模块的波特率与半双工、RX ⇄ 飞控的接线与飞控配置；以及 ELRS 在 CRSF 之上的约定——开关模式决定通道分辨率、CH15 / CH16 携带 LQ / RSSI、遥测比决定下行带宽、RFMD 编号、Lua 配置菜单。读完能把每个协议概念对应到遥控器 / 飞控里的具体设置项。
 ## 1. 遥控器 ⇄ TX 模块
 | 项目 | ExpressLRS 实践 |
